@@ -1,8 +1,12 @@
-h1 {color: #33ff33;}
+h1 {color: #33ff33;font-family: fantasy; font-size: 24pt;}
+h3 {color:coral; font-size: 18pt;}
+p {font-family: monospace; font-size: 14pt;}
+img {float: center;}
+ol+li+li {color: red;}
 footer {font-size: 8pt;}
 span>a:link {color: yellow;}
 span>a:hover {color: palevioletred;}
 span>a:focus {color: aqua;}
 span>a:visited {color: mediumpurple;}
 span>a:active {color: darkorange;}
-span>a {text-decoration: none; font-size: 10pt;}s
+span>a {text-decoration: none; font-size: 10pt;}
