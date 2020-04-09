@@ -1,7 +1,7 @@
 h1 {color: #33ff33; font-family: fantasy; font-size: 24pt;}
 h3 {color: dodgerblue; font-size: 18pt;}
 p {font-family: monospace; font-size: 14pt;}
-img {float: left; clear: right;}
+img {float: right; clear: right;}
 .old {color: red;}
 .new {color: green;}
 footer {font-size: 8pt;}
