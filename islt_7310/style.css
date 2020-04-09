@@ -1,8 +1,8 @@
 h1 {color: #33ff33;}
 footer {font-size: 8pt;}
-footer>a:link {color: yellow;}
-footer>a:hover {color: palevioletred;}
-footer>a:focus {color: aqua;}
-footer>a:visited {color: mediumpurple;}
-footer>a:active {color: darkorange;}
-footer>a {text-decoration: none; font-size: 10pt;}
+span>a:link {color: yellow;}
+span>a:hover {color: palevioletred;}
+span>a:focus {color: aqua;}
+span>a:visited {color: mediumpurple;}
+span>a:active {color: darkorange;}
+span>a {text-decoration: none; font-size: 10pt;}
