@@ -1,4 +1,4 @@
-h1 {color: #33ff33; font-family: fantasy; font-size: 24pt;}
+h1 {color: #33ff33; font-family: fantasy; font-size: 24pt; text-align: center;}
 h3 {color: dodgerblue; font-size: 18pt;}
 p {font-family: monospace; font-size: 14pt;}
 img {float: right; clear: right;}
