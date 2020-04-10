@@ -1,4 +1,4 @@
-body {background-color: cornsilk}
+body {background-color: cornsilk; margin: 15 px;}
 h1 {color: #660000; font-family: fantasy; font-size: 24pt; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
 h3 {color: dodgerblue; font-size: 18pt;}
 p {font-family: monospace; font-size: 14pt;}
@@ -6,7 +6,7 @@ p {font-family: monospace; font-size: 14pt;}
 .unified {float: right; clear: right; position: absolute}
 .old {color: red;}
 .new {color: green;}
-footer {font-size: 8pt; border-top: 2px solid crimson;}
+footer {font-size: 8pt; border-top: 2px solid crimson; padding: 5px;}
 span>a:link {color: green;}
 span>a:hover {color: palevioletred;}
 span>a:focus {color: aqua;}
