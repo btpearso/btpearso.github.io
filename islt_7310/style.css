@@ -3,7 +3,7 @@ h1 {color: #660000; font-family: fantasy; font-size: 24pt; text-align: center; b
 h3 {color: dodgerblue; font-size: 18pt;}
 p {font-family: monospace; font-size: 14pt;}
 .me {float: right; clear: right; background-color: gold; padding: 30px;}
-.unified {float: right; clear: right;}
+.unified {float: right; clear: right; position: absolute}
 .old {color: red;}
 .new {color: green;}
 footer {font-size: 8pt; border-top: 2px solid crimson;}
