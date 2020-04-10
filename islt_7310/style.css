@@ -3,10 +3,10 @@ h1 {color: #660000; font-family: fantasy; font-size: 24pt; text-align: center; b
 h3 {color: dodgerblue; font-size: 18pt;}
 p {font-family: monospace; font-size: 14pt;}
 .me {float: right; clear: right; background-color: gold; padding: 30px;}
-.unified {float: right; clear: right; position: relative; top: -100px; background-color: beige; padding: 10px; box-shadow: 2px 2px;}
+.unified {float: right; clear: right; position: relative; top: -100px; background-color: floralwhite; padding: 10px; box-shadow: 2px 2px 5px;}
 .old {color: red;}
 .new {color: green;}
-footer {font-size: 8pt; border-top: 2px solid crimson; padding: 100px;}
+footer {font-size: 8pt; border-top: 2px solid crimson; padding: 5px;}
 span>a:link {color: green;}
 span>a:hover {color: palevioletred;}
 span>a:focus {color: aqua;}
