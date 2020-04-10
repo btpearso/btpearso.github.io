@@ -1,10 +1,11 @@
-h1 {color: #33ff33; font-family: fantasy; font-size: 24pt; text-align: center;}
+body {background-color: cornsilk}
+h1 {color: #33ff33; font-family: fantasy; font-size: 24pt; text-align: center; border-color: crimson; border-width: medium; background-color: beige;}
 h3 {color: dodgerblue; font-size: 18pt;}
 p {font-family: monospace; font-size: 14pt;}
-img {float: right; clear: right;}
+img {float: right; clear: right; background-color: gold; padding: 30px;}
 .old {color: red;}
 .new {color: green;}
-footer {font-size: 8pt;}
+footer {font-size: 8pt; border-top: 2px solid crimson;}
 span>a:link {color: green;}
 span>a:hover {color: palevioletred;}
 span>a:focus {color: aqua;}
