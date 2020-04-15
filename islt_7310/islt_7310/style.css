@@ -1,0 +1,34 @@
+/*
+
+*****************************************************************************
+
+Title:  Style Page
+
+Use:  To allow users to fill out and submit the contact form.
+
+Author:  Brian Pearson
+
+School/Term:  Missouri University, Spring 2020
+
+Developed: April 10, 2020
+
+Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
+
+******************************************************************************
+
+*/
+body {background-color: cornsilk; margin: 15 px;}
+h1 {color: #660000; font-family: fantasy; font-size: 24pt; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
+h3 {color: dodgerblue; font-size: 18pt;}
+p {font-family: monospace; font-size: 14pt;}
+.me {float: right; clear: right; background-color: gold; padding: 30px;}
+.unified {float: right; clear: right; position: relative; top: -100px; background-color: floralwhite; padding: 10px; box-shadow: 2px 2px 5px;}
+.old {color: red;}
+.new {color: green;}
+footer {font-size: 8pt; border-top: 2px solid crimson; padding: 5px;}
+span>a:link {color: green;}
+span>a:visited {color: mediumpurple;}
+span>a:hover {color: palevioletred;}
+span>a:active {color: darkorange;}
+span>a:focus {color: aqua;}
+span>a {text-decoration: none; font-size: 10pt;}
