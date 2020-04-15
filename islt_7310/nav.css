@@ -1,0 +1,30 @@
+/*
+
+*****************************************************************************
+
+Title:  Style Page
+
+Use:  To allow users to fill out and submit the contact form.
+
+Author:  Brian Pearson
+
+School/Term:  Missouri University, Spring 2020
+
+Developed: April 10, 2020
+
+Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
+
+******************************************************************************
+
+*/
+.nav {
+        display: inline-block;
+        border: 3px outset floralwhite;
+        width: 150px;
+        list-style-type: none;
+        padding: 15px 15px 15px 15px;
+        margin-top: 0;
+        margin-left: 10px;
+        text-align: center;
+        }
+        
