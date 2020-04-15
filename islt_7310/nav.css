@@ -20,6 +20,7 @@ Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
 .nav {
         display: inline-block;
         border: 3px outset floralwhite;
+        background-color: floralwhite;
         width: 150px;
         list-style-type: none;
         padding: 15px 15px 15px 15px;
