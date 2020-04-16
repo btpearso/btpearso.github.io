@@ -27,6 +27,11 @@ Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
         margin-top: 0;
         margin-left: 10px;
         text-align: center;
-        position: sticky;
+        position: absolute;
         }
+nav a:link{backgrond-color: white;}
+nav a:hover, nav a:focus{background-color:azure}
+nav a:active{background-color: cornflowerblue;}
+nav ul>li ul{position: absolute; margin-top: 0; margin-left: 100%; display: none;}
+nav>ul>li:hover>ul{display:block;}
         
