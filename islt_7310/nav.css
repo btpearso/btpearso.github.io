@@ -17,22 +17,25 @@ Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
 ******************************************************************************
 
 */
-.nav {
+nav {
         display: inline-block;
-        border: 3px outset floralwhite;
-        background-color: floralwhite;
-        width: 150px;
-        list-style-type: none;
-        padding: 15px 15px 15px 15px;
-        margin-top: 0;
-        margin-left: 10px;
-        text-align: center;
         position: absolute;
+        margin-top: 0;
+        background-color: floralwhite;
+        width: 100%;
+        border: 3px outset floralwhite;
+        padding: 15px 15px 15px 15px;
+        text-align: center;
         }
-.nav a:link{color: firebrick; text-decoration: none;}
-.nav a:hover{color: azure; text-decoration: none;}
-.nav a:focus{background-color:azure}
-.nav a:active{background-color: cornflowerblue;}
-.nav a {position: absolute; margin-top: 0; left: 200px; display: block; margin: 0; background-color: green}
-.nav a:hover>ul{display:block;}
+li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+nav a:link {color: orange; text-decoration: none;}
+nav a:hover {color: orange; text-decoration: none;}
+li > ul {display: none;}
+li:hover ul{position: absolute; margin-top: 0; left: 200px; display: block; margin: 0; background-color: green}
+li:hover ul li a:link{display:inline-block; margin-left: -30px;}
         
