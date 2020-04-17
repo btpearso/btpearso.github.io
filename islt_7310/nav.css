@@ -22,14 +22,14 @@ nav {
         position: absolute;
         margin-top: 0;
         background-color: floralwhite;
-        width: 400000px;
+        width: 300000px;
         border: 3px outset floralwhite;
         padding: 15px 15px 15px 15px;
         text-align: center;
         }
 li {
     list-style-type: none;
-    display: block;
+    display: inline-block;
     margin-right: 20px;
     font-size: 25px;
 }
