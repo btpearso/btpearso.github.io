@@ -31,16 +31,19 @@ display: inline;
 margin-right: 20px;
 font-size:25px
 }
-a:link {
-color: #fff;
+nav a:link {
+background-color: gold;
 text-decoration: none;
 }
-a:hover {
-color: orange;
+nav a:hover {
+background-color: orange;
 text-decoration: none;
+}
+nav a:active {
+background-color: crimson;
 }
 li > ul {
 display: none
 }
-li:hover ul {display: block; position: absolute; top: 63px; left:425px;background-color:darkolivegreen;margin:0; border: 3px outset darkseagreen;}
+li:hover ul {display: block; position: absolute; top: 40px; left:425px;background-color:darkolivegreen;margin:0; border: 3px outset darkseagreen;}
 li:hover ul li a:link{display: block;margin-left:-30px;}
