@@ -66,5 +66,5 @@ text-decoration: none;
 li > ul {
 display: none
 }
-li:hover ul {display: block; position: absolute; left:400px;background-color:darkolivegreen;margin:0; border: 3px floralwhite;}
+li:hover ul {display: block; position: absolute; left:400px;background-color:darkolivegreen;margin:0; border: 3px double floralwhite;}
 li:hover ul li a:link{display: block;margin-left:-30px;}
