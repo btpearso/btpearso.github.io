@@ -32,5 +32,5 @@ span>a:hover {color: palevioletred;}
 span>a:active {color: darkorange;}
 span>a:focus {color: aqua;}
 span>a {text-decoration: none; font-size: 10pt;}
-h3 + p:first-child::first-letter {font-size: 24pt; color: firebrick;}
-p + p:first-child::first-line {text-indent: 50px;}
+h3+p:first-child::first-letter {font-size: 24pt; color: firebrick;}
+p+p:first-child::first-line {text-indent: 50px;}
