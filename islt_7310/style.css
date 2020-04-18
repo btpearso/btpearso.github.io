@@ -17,7 +17,7 @@ Tested:  April 18, 2020; Passed on Firefox and Chrome browsers.
 ******************************************************************************
 
 */
-body {background-color: cornsilk; margin: 15 px;}
+body {background-color: cornsilk; margin: 15px;}
 h1 {color: #660000; font-family: fantasy; font-size: 24pt; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
 h3 {color: dodgerblue; font-size: 18pt;}
 p {font-family: monospace; font-size: 14pt;}
