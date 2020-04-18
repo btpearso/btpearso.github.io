@@ -10,9 +10,9 @@ Author:  Brian Pearson
 
 School/Term:  Missouri University, Spring 2020
 
-Developed: April 10, 2020
+Developed: April 18, 2020
 
-Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 18, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
@@ -32,3 +32,5 @@ span>a:hover {color: palevioletred;}
 span>a:active {color: darkorange;}
 span>a:focus {color: aqua;}
 span>a {text-decoration: none; font-size: 10pt;}
+h3 + p:first-child::first-letter {font-size: 24pt; color: firebrick;}
+p + p:first-child::first-line {text-indent: 50px;}
