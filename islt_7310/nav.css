@@ -47,9 +47,10 @@ text-decoration: none;
 }
 nav a:active {
 background-color: crimson;
+
 }
 li > ul {
 display: none
 }
-li:hover ul {display: block; position: absolute; top: 40px; left:200px;background-color:darkolivegreen; margin: 0; border: 3px outset darkseagreen; width: 150px;}
-li:hover ul li a:link{display: block; margin-left:-30px;}
+li:hover ul {display: block; position: fixed; top: 40px; left:800px;background-color: gold; border: 3px outset darkseagreen; width: 170px;}
+li:hover ul li a:link {display: block; margin-left: -40px;}
