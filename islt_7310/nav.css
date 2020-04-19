@@ -52,5 +52,5 @@ background-color: crimson;
 li > ul {
 display: none
 }
-li:hover ul {display: block; position: fixed; top: 81px; left:765px;background-color: gold; border: 3px outset darkseagreen; width: 171px;}
+li:hover ul {display: block; position: fixed; top: 81px; left:770px;background-color: gold; border: 3px outset darkseagreen; width: 171px;}
 li:hover ul li a:link {display: block; margin-left: -40px;}
