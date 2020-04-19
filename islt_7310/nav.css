@@ -30,7 +30,7 @@ list-style-type: none;
 display: inline;
 margin-right: 20px;
 font-size:25px;
-padding: 20px;
+padding: 100px;
 }
 nav a:link {
 background-color: gold;
@@ -46,5 +46,5 @@ background-color: crimson;
 li > ul {
 display: none
 }
-li:hover ul {display: block; position: absolute; top: 40px; left:505px;background-color:darkolivegreen;margin:0; border: 3px outset darkseagreen;}
+li:hover ul {display: block; position: absolute; top: 40px; left:1500px;background-color:darkolivegreen;margin:0; border: 3px outset darkseagreen;}
 li:hover ul li a:link{display: block;margin-left:-30px;}
