@@ -48,5 +48,5 @@ background-color: crimson;
 li > ul {
 display: none
 }
-li:hover ul {display: block; position: absolute; top: 40px; left:1500px;background-color:darkolivegreen;margin:0; border: 3px outset darkseagreen;}
+li:hover ul {display: block; position: absolute; top: 40px; left:550px;background-color:darkolivegreen;margin:0; border: 3px outset darkseagreen;}
 li:hover ul li a:link{display: block;margin-left:-30px;}
