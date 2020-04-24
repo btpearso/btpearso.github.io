@@ -54,13 +54,18 @@ display: none
 }
 li:hover ul {display: block; position: fixed; top: 87px; left:771px;background-color: gold; border: 3px outset darkseagreen; width: 171px;}
 li:hover ul li a:link {display: block; margin-left: -40px;}
-#menu-icon {background: url(images/Hamburger_icon.svg.png); display: hidden; width: 32px; height: 32px;z-index: 100;}
+#menu-icon {
+    background: url(images/Hamburger_icon.svg.png); 
+    display: hidden; 
+    width: 32px; 
+    height: 32px; 
+    z-index: 100;}
 @media only screen and (max-width: 640px) {
-    header {position: absolute;}
+    header {position: relative;}
     #menu-icon {display: inline-block;}
     nav ul, nav:active ul {
         display: none;
-        position: absolute;
+        position: relative;
         padding: 20px;
         background: yellow;
         right: 10px;
