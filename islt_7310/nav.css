@@ -84,4 +84,5 @@ li:hover ul li a:link {display: block; margin-left: -40px;}
         padding: 15px 0;
         margin: 0;
     }
+    nav .xp {display: none;}
     }
