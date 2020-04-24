@@ -58,14 +58,14 @@ li:hover ul li a:link {display: block; margin-left: -40px;}
     display: none;
 }
 @media only screen and (max-width: 640px) {
-    nav {position: absolute; display: block;}
+    nav {position: relative; display: block; padding-bottom: 45px;}
     nav ul, nav:active ul {
         display: none;
         position: absolute;
         padding: 20px;
         background: none;
         left: 0px;
-        top: 5px;
+        top: 10px;
         width: 35%;
     }
     #hamburger {
@@ -82,5 +82,6 @@ li:hover ul li a:link {display: block; margin-left: -40px;}
         text-align: center;
         width: 100%;
         padding: 15px 0;
-        margin: 0; 
+        margin: 0;
+    }
     }
