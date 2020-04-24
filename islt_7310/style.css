@@ -17,21 +17,33 @@ Tested:  April 18, 2020; Passed on Firefox and Chrome browsers.
 ******************************************************************************
 
 */
-body {background-color: cornsilk; margin: 15px;}
-h1 {color: #660000; font-family: fantasy; font-size: 24pt; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
-h3 {color: dodgerblue; font-size: 18pt;}
-p {font-family: monospace; font-size: 14pt;}
-.me {float: right; clear: right; background-color: gold; padding: 30px;}
-.unified {float: right; clear: right; position: relative; top: -100px; background-color: floralwhite; padding: 10px; box-shadow: 2px 2px 5px;}
+:root {
+  font-size: 62.5%;
+  body {
+    margin: 0;
+    // Body font size 16px
+    font-size: 1.6rem;
+  }
+}
+body {background-color: cornsilk; margin: 1.5rem;}
+h1 {color: #660000; font-family: fantasy; font-size: 2.4rem; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
+h3 {color: dodgerblue; font-size: 1.8rem;}
+p {font-family: monospace; font-size: 1.4rem;}
+.me {float: right; clear: right; background-color: gold; padding: 3rem;}
+.unified {float: right; clear: right; position: relative; top: -10rem; background-color: floralwhite; padding: 1rem; box-shadow: .2rem .2rem .5rem;}
 .old {color: red;}
 .new {color: green;}
-footer {font-size: 8pt; border-top: 2px solid crimson; padding: 5px;}
+footer {font-size: .8rem; border-top: .2rem solid crimson; padding: 5px;}
 span>a:link {color: green;}
 span>a:visited {color: mediumpurple;}
 span>a:hover {color: palevioletred;}
 span>a:active {color: darkorange;}
 span>a:focus {color: aqua;}
-span>a {text-decoration: none; font-size: 10pt;}
-main p:first-child::first-letter {font-size: 24pt; color: firebrick;}
-main p:nth-child(2)::first-line {text-indent: 50px;}
-main p:nth-child(3)::first-line {text-indent: 50px;}
+span>a {text-decoration: none; font-size: 1rem;}
+main p:first-child::first-letter {font-size: 2.4rem; color: firebrick;}
+main p:nth-child(2)::first-line {text-indent: 5rem;}
+main p:nth-child(3)::first-line {text-indent: 5rem;}
+article {padding: 1rem; margin: 1rem; background: honeydew; width: 30vw;}
+section {display: flex;}
+article h3 {text-align: center; font-size: 1.6rem;}
+article p {font-size: 1rem;}
