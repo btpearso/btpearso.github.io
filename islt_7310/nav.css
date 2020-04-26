@@ -33,6 +33,10 @@ width: 100%;
 background-color: darkolivegreen;
 border: .3rem outset darkseagreen;
 }
+nav ul {
+margin: 0;
+padding: 0;
+}
 nav li {
 list-style-type: none;
 display: inline-block;
@@ -42,8 +46,13 @@ border: .3rem inset darkseagreen;
 background-color: gold;
 padding-top: 1rem;
 padding-bottom: 1rem;
-padding-left: 5rem;
-padding-right: 5rem;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
+position: relative;
+min-width: 13rem;
+text-align: center
+}
+nav a {display: inline-block;
 }
 nav a:link {
 background-color: gold;
@@ -55,18 +64,21 @@ text-decoration: none;
 }
 nav a:active {
 background-color: crimson;
-
 }
-li > ul {
-display: none
+nav ul > li ul {
+display: none;
+position: absolute;
+min-width: 13rem;
+z-index: 1;
 }
-li:hover ul {display: block; position: fixed; top: 8.7rem; left:77.1rem; background-color: gold; border: .3rem outset darkseagreen; width: 17.1rem;}
-li:hover ul li a:link {display: block; margin-left: -4rem;}
+nav > ul > li:hover > ul {display: block; background-color: none; top: 5.1rem; left: -.3rem;
+}
   #hamburger {
     display: none;
 }
 @media only screen and (max-width: 640px) {
-    nav {position: relative; display: block; padding-bottom: 4.5rem;}
+    nav {position: relative; display: block; padding-bottom: 4.5rem;
+    }
     nav ul, nav:active ul {
         display: none;
         position: absolute;
@@ -93,5 +105,6 @@ li:hover ul li a:link {display: block; margin-left: -4rem;}
         padding: 15px 0;
         margin: 0;
     }
-    nav .xp {display: none;}
+    nav .xp {display: none;
+    }
     }
