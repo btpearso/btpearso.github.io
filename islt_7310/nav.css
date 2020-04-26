@@ -102,7 +102,7 @@ nav > ul > li:hover > ul {display: block; background-color: none; top: 5.1rem; l
         text-align: center;
         font-size: 1.5rem;
         width: 100%;
-        padding: 15px 0;
+        padding: 1.5rempx 0;
         margin: 0;
     }
     nav .xp {display: none;
