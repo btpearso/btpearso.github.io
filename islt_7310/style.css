@@ -29,6 +29,7 @@ body {background-color: cornsilk; margin: 1.5rem;}
 h1 {color: #660000; font-family: fantasy; font-size: 4rem; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
 h3 {color: dodgerblue; font-size: 3rem;}
 p {font-family: monospace; font-size: 2.5rem;}
+main li {font-size: 2.5rem;}
 .me {float: right; clear: right; background-color: floralwhite; padding: 1rem; box-shadow: .2rem .2rem .5rem; width: 100%; max-width: 17.2rem; max-height: 22.7rem; margin-bottom: 1rem;}
 .unified {float: right; clear: right; position: relative; top: -10rem; background-color: floralwhite; padding: 1rem; box-shadow: .2rem .2rem .5rem; width: 100%; max-width: 24rem; max-height: 18.5rem;}
 .old {color: red;}
