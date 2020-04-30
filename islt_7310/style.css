@@ -79,17 +79,22 @@ article p {font-size: 1rem;}
     h1 {
         border: none; color: #000;
     }
+    h2 {
+        color: #000;
+    }
     .old {
         color: #000;
     }
     .new {
         color: #000;
     }
-    nav, h2, nav li, footer img {
+    h2, footer img {
         display: none;
+        border: none;
     }
     nav, nav li, nav ul {
         border: none;
+        display: none;
     }
     @page {
         margin: .5cm;
