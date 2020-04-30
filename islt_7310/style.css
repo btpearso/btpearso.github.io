@@ -17,6 +17,10 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
 ******************************************************************************
 
 */
+@font-face {
+    font-family: lato;
+    src: url("Lato-Black.ttf");
+}
 :root {
   font-size: 62.5%;
   body {
@@ -26,7 +30,7 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
   }
 }
 body {background-color: cornsilk; margin: 1.5rem;}
-h1 {color: #660000; font-family: fantasy; font-size: 4rem; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
+h1 {color: #660000; font-family: lato; font-size: 4rem; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
 h3 {color: dodgerblue; font-size: 3rem;}
 p {font-family: monospace; font-size: 2.5rem;}
 main li {font-size: 2.5rem;}
