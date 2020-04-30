@@ -55,12 +55,10 @@ text-align: center
 nav a {display: inline-block;
 }
 nav a:link {
-background-color: gold;
 text-decoration: none;
 }
-nav a:hover {
-background-color: orange;
-text-decoration: none;
+ul li:hover {
+background-color: cornsilk;
 }
 nav a:active {
 background-color: crimson;
