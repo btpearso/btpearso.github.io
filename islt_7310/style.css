@@ -77,12 +77,18 @@ article p {font-size: 1rem;}
         text-shadow: none; !important;
     }
     h1 {
-        border: none;
+        border: none; color: #000;
+    }
+    .old {
+        color: #000;
+    }
+    .new {
+        color: #000;
     }
     nav, h2, nav li, footer img {
         display: none;
     }
-    nav, nav li {
+    nav, nav li, nav ul {
         border: none;
     }
     @page {
