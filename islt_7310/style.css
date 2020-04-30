@@ -33,7 +33,7 @@ p {font-family: monospace; font-size: 1.4rem;}
 .unified {float: right; clear: right; position: relative; top: -10rem; background-color: floralwhite; padding: 1rem; box-shadow: .2rem .2rem .5rem; width: 100%; max-width: 24rem; max-height: 18.5rem;}
 .old {color: red;}
 .new {color: green;}
-footer {font-size: .8rem; border-top: .2rem solid crimson; padding: 5px;}
+footer {font-size: .8rem; border-top: .2rem solid crimson; padding: 5px; background-image: url(images/classroom.jpg); background-size: cover;}
 span>a:link {color: green;}
 span>a:visited {color: mediumpurple;}
 span>a:hover {color: palevioletred;}
