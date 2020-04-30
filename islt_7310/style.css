@@ -76,6 +76,9 @@ article p {font-size: 1rem;}
         box-shadow: none; !important;
         text-shadow: none; !important;
     }
+    h1 {
+        border: none;
+    }
     nav, h2, nav li, footer img {
         display: none;
     }
