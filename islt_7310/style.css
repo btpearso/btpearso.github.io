@@ -22,7 +22,7 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
   body {
     margin: 0;
     // Body font size 16px
-    font-size: 1.6rem;
+    font-size: 2.5rem;
   }
 }
 body {background-color: cornsilk; margin: 1.5rem;}
@@ -33,7 +33,7 @@ p {font-family: monospace; font-size: 2.5rem;}
 .unified {float: right; clear: right; position: relative; top: -10rem; background-color: floralwhite; padding: 1rem; box-shadow: .2rem .2rem .5rem; width: 100%; max-width: 24rem; max-height: 18.5rem;}
 .old {color: red;}
 .new {color: green;}
-footer {font-size: 1.8rem; border-top: .2rem solid crimson; padding: 5px; background-image: url(images/background.jpg); width: 95%; height: 100rem;}
+footer {font-size: 1.8rem; border-top: .2rem solid crimson; padding: 5px; background-image: url(images/background.jpg); width: 95%; height: 22rem;}
 span>a:link {color: green;}
 span>a:visited {color: mediumpurple;}
 span>a:hover {color: palevioletred;}
