@@ -76,7 +76,7 @@ article p {font-size: 1rem;}
         box-shadow: none; !important;
         text-shadow: none; !important;
     }
-    nav, h2 {
+    nav, h2, nav li, footer img {
         display: none;
     }
     @page {
