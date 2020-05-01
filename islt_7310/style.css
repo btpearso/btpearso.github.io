@@ -81,17 +81,22 @@ article p {font-size: 1rem;}
     }
     nav {
         display: none;
-        border: none;
+        border: 0 none white;
         background-color: white;
     }
     nav ul {
         display: none;
-        border: none;
+        border: 0 none white;
         background-color: white;
     }
     nav li {
         display: none;
-        border: none;
+        border: 0 none white;
+        background-color: white;
+    }
+    nav label {
+        display: none;
+        border: 0 none white;
         background-color: white;
     }
     p {
