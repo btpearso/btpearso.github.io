@@ -76,6 +76,9 @@ article p {font-size: 1rem;}
         box-shadow: none; !important;
         text-shadow: none; !important;
     }
+    p {
+        font-family: serif;
+    }
     h1 {
         border: none; color: #000;
     }
