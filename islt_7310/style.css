@@ -46,7 +46,7 @@ span>a:visited {color: mediumpurple;}
 span>a:hover {color: palevioletred;}
 span>a:active {color: darkorange;}
 span>a:focus {color: aqua;}
-span>a {text-decoration: none; font-size: 1rem;}
+span>a {text-decoration: none; font-size: 2.5rem;}
 main p:first-child::first-letter {font-size: 5rem; color: firebrick;}
 main p:nth-child(2)::first-line {text-indent: 5rem;}
 main p:nth-child(3)::first-line {text-indent: 5rem;}
@@ -76,6 +76,18 @@ article p {font-size: 1rem;}
         box-shadow: none; !important;
         text-shadow: none; !important;
     }
+    nav {
+        display: none;
+        border: none;
+    }
+    nav ul {
+        display: none;
+        border: none;
+    }
+    nav li {
+        display: none;
+        border: none;
+    }
     p {
         font-family: serif;
     }
@@ -97,19 +109,11 @@ article p {font-size: 1rem;}
     footer {
         border-top-color: #000;
     }
-    nav {
-        border: none;
-        display: none;
-        background-color: white;
-    }
-    li {
-        display: none;
-    }
     span>a:link {
         color: #000;
     }
-    ul {
-        display: none;
+   li {
+        color: #000;
     }
     @page {
         margin: .5cm;
