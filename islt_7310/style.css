@@ -32,6 +32,7 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
 body {background-color: cornsilk; margin: 1.5rem;}
 h1 {color: #660000; font-family: lato; font-size: 4rem; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
 h3 {color: dodgerblue; font-size: 3rem;}
+h4 {font-size: 2rem;}
 p {font-family: monospace; font-size: 2.5rem;}
 main li {font-size: 2.5rem;}
 blockquote {font-size: 2rem;}
@@ -56,7 +57,17 @@ main p:nth-child(3)::first-line {text-indent: 5rem;}
 article {padding: 1rem; margin: 1rem; background: honeydew; width: 30vw;}
 section {display: flex;}
 article h3 {text-align: center; font-size: 3rem;}
-article p {font-size: 1rem;}
+article p {font-size: 2rem; text-align: center;}
+.section1e {padding: 10rem; margin-bottom: 15rem; background: honeydew; width: 95vw; display: block;}
+.section2e {padding: 10rem; margin-bottom: 15rem; background: honeydew; width: 95vw; display: block;}
+.section3e {padding: 10rem; margin-bottom: 2.5rem; background: honeydew; width: 95vw; display: block;}
+.section1e h3 {text-align: center; font-size: 3rem; display: block;}
+.section2e h3 {text-align: center; font-size: 3rem; display: block;}
+.section3e h3 {text-align: center; font-size: 3rem; display: block;}
+.section1e h4 {text-align: center; font-size: 2rem; display: block;}
+.section2e h4 {text-align: center; font-size: 2rem; display: block;}
+.section3e h4 {text-align: center; font-size: 2rem; display: block;}
+section p {font-size: 2rem; display: block;}
 @media only screen and (max-width: 640px) {
 .iframe-container{
   position: relative;
