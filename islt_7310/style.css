@@ -105,7 +105,9 @@ article p {font-size: 1rem;}
     li {
         display: none;
     }
-    span>a:link {color: black;}
+    span>a:link {
+        color: #000;
+    }
     ul {
         display: none;
     }
