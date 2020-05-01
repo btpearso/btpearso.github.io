@@ -43,7 +43,7 @@ blockquote {font-size: 2rem;}
 .resumelink {
     font-size: 2.5rem;
 }
-footer {font-size: 1.8rem; border-top: .2rem solid crimson; padding: 5px; background-image: url(images/background.jpg); width: 95%; height: 22rem;}
+footer {font-size: 1.8rem; border-top: .2rem solid crimson; padding: 5px; background-image: url(images/background.jpg); width: 100%; height: 22rem;}
 footer img {width: 5rem; height: 5rem;}
 span>a:link {color: green;}
 span>a:visited {color: mediumpurple;}
@@ -58,9 +58,9 @@ article {padding: 1rem; margin: 1rem; background: honeydew; width: 30vw;}
 section {display: flex;}
 article h3 {text-align: center; font-size: 3rem;}
 article p {font-size: 2rem; text-align: center;}
-.section1e {padding: 10rem; margin-bottom: 15rem; background: honeydew; width: 95vw; display: block;}
-.section2e {padding: 10rem; margin-bottom: 15rem; background: honeydew; width: 95vw; display: block;}
-.section3e {padding: 10rem; margin-bottom: 2.5rem; background: honeydew; width: 95vw; display: block;}
+.section1e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 15rem; background: beige; width: 70vw; display: block;}
+.section2e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 15rem; background: beige; width: 70vw; display: block;}
+.section3e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 2.5rem; background: beige; width: 70vw; display: block;}
 .section1e h3 {text-align: center; font-size: 3rem; display: block;}
 .section2e h3 {text-align: center; font-size: 3rem; display: block;}
 .section3e h3 {text-align: center; font-size: 3rem; display: block;}
@@ -68,6 +68,9 @@ article p {font-size: 2rem; text-align: center;}
 .section2e h4 {text-align: center; font-size: 2rem; display: block;}
 .section3e h4 {text-align: center; font-size: 2rem; display: block;}
 section p {font-size: 2rem; display: block;}
+.section1e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
+.section2e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
+.section3e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
 @media only screen and (max-width: 640px) {
 .iframe-container{
   position: relative;
