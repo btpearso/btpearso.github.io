@@ -78,26 +78,19 @@ article p {font-size: 1rem;}
         color: #000; !important;
         box-shadow: none; !important;
         text-shadow: none; !important;
+        border: none;
     }
     nav {
         display: none;
-        border: 0 none white;
-        background-color: white;
     }
     nav ul {
         display: none;
-        border: 0 none white;
-        background-color: white;
     }
     nav li {
         display: none;
-        border: 0 none white;
-        background-color: white;
     }
     nav label {
         display: none;
-        border: 0 none white;
-        background-color: white;
     }
     p {
         font-family: serif;
