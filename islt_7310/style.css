@@ -79,7 +79,7 @@ article p {font-size: 1rem;}
     h1 {
         border: none; color: #000;
     }
-    h2 {
+    h3 {
         color: #000;
     }
     .old {
@@ -90,10 +90,18 @@ article p {font-size: 1rem;}
     }
     h2, footer img {
         display: none;
-        border: none;
     }
-    nav, nav li, nav ul {
+    footer {
+        color: #000;
+    }
+    nav {
         border: none;
+        display: none;
+    }
+    li {
+        display: none;
+    }
+    ul {
         display: none;
     }
     @page {
