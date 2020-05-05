@@ -72,7 +72,7 @@ section p {font-size: 2rem; display: block;}
 .section1e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
 .section2e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
 .section3e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
-table {border: .3rem outset crimson; margin-bottom: 10rem; margin-top: 5rem; width:100%;}
+table {border: .3rem outset crimson; margin-bottom: 10rem; margin-top: 5rem; width:100%; font-size: 3rem;}
 table caption {font-size: 2.5rem; margin-bottom: 1.5rem;}
 .tablehead {background-color: lightblue;}
 .row2 {background-color: white;}
