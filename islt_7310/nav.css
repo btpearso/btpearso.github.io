@@ -26,56 +26,64 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
   }
 }
 nav {
-display: block;
-position: relative;
-top: 0;
-width: 100%;
-background-color: crimson;
-border: .3rem outset crimson;
+    display: block;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: crimson;
+    border: .3rem outset crimson;
 }
 nav ul {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 nav li {
-list-style-type: none;
-display: inline-block;
-margin-right: 2rem;
-font-size: 2.5rem;
-border: .3rem inset skyblue;
-background-color: lightblue;
-padding-top: 1rem;
-padding-bottom: 1rem;
-padding-left: 2.5rem;
-padding-right: 2.5rem;
-position: relative;
-min-width: 13rem;
-text-align: center
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+    border: .3rem inset skyblue;
+    background-color: lightblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    position: relative;
+    min-width: 13rem;
+    text-align: center
 }
-nav a {display: inline-block;
+nav a {
+    display: inline-block;
 }
 nav a:link {
-text-decoration: none;
+    text-decoration: none;
 }
 nav ul li:hover {
-background-color: mistyrose;
+    background-color: mistyrose;
 }
 nav a:active {
-background-color: white;
+    background-color: white;
 }
 nav ul > li ul {
-display: none;
-position: absolute;
-min-width: 13rem;
-z-index: 1;
+    display: none;
+    position: absolute;
+    min-width: 13rem;
+    z-index: 1;
 }
-nav > ul > li:hover > ul {display: block; background-color: none; top: 5.1rem; left: -.3rem;
+nav > ul > li:hover > ul {
+    display: block; 
+    background-color: none; 
+    top: 5.1rem; 
+    left: -.3rem;
 }
   #hamburger {
     display: none;
 }
 @media only screen and (max-width: 640px) {
-    nav {position: relative; display: block; padding-bottom: 4.5rem;
+    nav {
+        position: relative; 
+        display: block; 
+        padding-bottom: 4.5rem;
     }
     nav ul, nav:active ul {
         display: none;
@@ -87,7 +95,7 @@ nav > ul > li:hover > ul {display: block; background-color: none; top: 5.1rem; l
         width: 35%;
     }
     #hamburger {
-    display: inline-block;
+        display: inline-block;
         padding-left: 2rem;
         width: 2.6rem;
         float: left;
@@ -103,6 +111,7 @@ nav > ul > li:hover > ul {display: block; background-color: none; top: 5.1rem; l
         padding: 1.5rempx 0;
         margin: 0;
     }
-    nav .xp {display: none;
+    nav .xp {
+        display: none;
     }
     }

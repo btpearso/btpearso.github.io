@@ -29,33 +29,114 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
     font-size: 2.5rem;
   }
 }
-body {background-color: cornsilk; margin: 1.5rem;}
-h1 {color: #660000; font-family: lato; font-size: 4rem; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
-h3 {color: dodgerblue; font-size: 3rem;}
-h4 {font-size: 2rem;}
-h5 {font-size: 2rem;}
-p {font-family: monospace; font-size: 2.5rem;}
-main li {font-size: 2.5rem;}
-blockquote {font-size: 2rem;}
-.me {float: right; clear: right; background-color: floralwhite; padding: 1rem; box-shadow: .2rem .2rem .5rem; width: 100%; max-width: 17.2rem; max-height: 22.7rem; margin-bottom: 1rem;}
-.unified {float: right; clear: right; position: relative; top: -10rem; background-color: floralwhite; padding: 1rem; box-shadow: .2rem .2rem .5rem; width: 100%; max-width: 24rem; max-height: 18.5rem;}
-.old {color: red;}
-.new {color: green;}
+body {
+    background-color: cornsilk; 
+    margin: 1.5rem;
+}
+h1 {
+    color: #660000;
+    font-family: lato;
+    font-size: 4rem;
+    text-align: center;
+    border-color: crimson;
+    border-style: solid;
+    border-width: medium;
+    background-color: lightblue;
+}
+h3 {
+    color: dodgerblue;
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2rem;
+}
+h5 {
+    font-size: 2rem;
+}
+p {
+    font-family: monospace;
+    font-size: 2.5rem;
+}
+main li {
+    font-size: 2.5rem;
+}
+blockquote {
+    font-size: 2rem;
+}
+.me {
+    float: right;
+    clear: right;
+    background-color: floralwhite;
+    padding: 1rem;
+    box-shadow: .2rem .2rem .5rem;
+    width: 100%;
+    max-width: 17.2rem;
+    max-height: 22.7rem;
+    margin-bottom: 1rem;
+}
+.unified {
+    float: right;
+    clear: right;
+    position: relative;
+    top: -10rem;
+    background-color: floralwhite;
+    padding: 1rem;
+    box-shadow: .2rem .2rem .5rem;
+    width: 100%; max-width: 24rem;
+    max-height: 18.5rem;
+}
+.old {
+    color: red;
+}
+.new {
+    color: green;
+}
 .resumelink {
     font-size: 2.5rem;
 }
-footer {font-size: 1.8rem; border-top: .2rem solid crimson; padding: 5px; background-image: url(images/background.jpg); width: 100%; height: 22rem;}
-footer img {width: 5rem; height: 5rem;}
-footer img:hover {width: 6rem; height: 6rem;}
-span>a:link {color: green;}
-span>a:visited {color: mediumpurple;}
-span>a:hover {color: palevioletred;}
-span>a:active {color: darkorange;}
-span>a:focus {color: aqua;}
-span>a {text-decoration: none; font-size: 2rem;}
-main p:first-child::first-letter {font-size: 5rem; color: firebrick;}
-main p:nth-child(2)::first-line {text-indent: 5rem;}
-main p:nth-child(3)::first-line {text-indent: 5rem;}
+footer {
+    font-size: 1.8rem;
+    border-top: .2rem solid crimson;
+    padding: 5px;
+    background-image: url(images/background.jpg);
+    width: 100%;
+    height: 22rem;
+}
+footer img {
+    width: 5rem;
+    height: 5rem;
+}
+footer img:hover {
+    width: 6rem;
+    height: 6rem;
+}
+span>a:link {
+    color: green;
+}
+span>a:visited {
+    color: mediumpurple;
+}
+span>a:hover {
+    color: palevioletred;
+}
+span>a:active {
+    color: darkorange;
+}
+span>a:focus {
+    color: aqua;
+}
+span>a {
+    text-decoration: none; font-size: 2rem;
+}
+main p:first-child::first-letter {
+    font-size: 5rem; color: firebrick;
+}
+main p:nth-child(2)::first-line {
+    text-indent: 5rem;
+}
+main p:nth-child(3)::first-line {
+    text-indent: 5rem;
+}
 section article {
   padding: 1rem; 
   margin: 1rem; 
@@ -74,25 +155,105 @@ article h3 {
 article p {
   font-size: 2rem;
   }
-.section1e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 15rem; background: beige; width: 70vw; display: block;}
-.section2e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 15rem; background: beige; width: 70vw; display: block;}
-.section3e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 2.5rem; background: beige; width: 70vw; display: block;}
-.section1e h3 {text-align: center; font-size: 3rem; display: block;}
-.section2e h3 {text-align: center; font-size: 3rem; display: block;}
-.section3e h3 {text-align: center; font-size: 3rem; display: block;}
-.section1e h4 {text-align: center; font-size: 2rem; display: block;}
-.section2e h4 {text-align: center; font-size: 2rem; display: block;}
-.section3e h4 {text-align: center; font-size: 2rem; display: block;}
-section p {font-size: 2rem; display: block;}
-.section1e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
-.section2e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
-.section3e:hover {padding: 15rem; box-shadow: 0rem 0rem 10rem lightblue;}
-table {border: .3rem outset crimson; margin-bottom: 10rem; margin-top: 5rem; width:100%; font-size: 3rem;}
-table caption {font-size: 2.5rem; margin-bottom: 1.5rem;}
-.tablehead {background-color: lightblue;}
-.row2 {background-color: white;}
-tr:nth-of-type(2) {background-color: lightblue;}
-tr:nth-of-type(3) {background-color: white;}
+.section1e {
+    box-shadow: .2rem .2rem 1rem;
+    padding: 10rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 15rem;
+    background: beige;
+    width: 70vw;
+    display: block;
+}
+.section2e {
+    box-shadow: .2rem .2rem 1rem;
+    padding: 10rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 15rem;
+    background: beige;
+    width: 70vw;
+    display: block;
+}
+.section3e {
+    box-shadow: .2rem .2rem 1rem;
+    padding: 10rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2.5rem;
+    background: beige;
+    width: 70vw;
+    display: block;
+}
+.section1e h3 {
+    text-align: center;
+    font-size: 3rem;
+    display: block;
+}
+.section2e h3 {
+    text-align: center;
+    font-size: 3rem;
+    display: block;
+}
+.section3e h3 {
+    text-align: center;
+    font-size: 3rem;
+    display: block;
+}
+.section1e h4 {
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+}
+.section2e h4 {
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+}
+.section3e h4 {
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+}
+section p {
+    font-size: 2rem;
+    display: block;
+}
+.section1e:hover {
+    padding: 15rem;
+    box-shadow: 0rem 0rem 10rem lightblue;
+}
+.section2e:hover {
+    padding: 15rem;
+    box-shadow: 0rem 0rem 10rem lightblue;
+}
+.section3e:hover {
+    padding: 15rem;
+    box-shadow: 0rem 0rem 10rem lightblue;
+}
+table {
+    border: .3rem outset crimson;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    width:100%;
+    font-size: 3rem;
+}
+table caption {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.tablehead {
+    background-color: lightblue;
+}
+.row2 {
+    background-color: white;
+}
+tr:nth-of-type(2) {
+    background-color: lightblue;
+}
+tr:nth-of-type(3) {
+    background-color: white;
+}
 .section1c {
   padding: 3rem;
   background-color: steelblue; 
@@ -191,8 +352,15 @@ form h5 {
   text-align: center;
   margin-top; 0;
   margin-bottom: 2rem;
-  
 }
+/*
+
+*****************************************************************************
+
+Mobile/Responsive Settings
+******************************************************************************
+
+*/
 @media only screen and (max-width: 640px) {
 .iframe-container{
   position: relative;
@@ -259,6 +427,14 @@ section article {
   width: 90%;
 }
 }
+/*
+
+*****************************************************************************
+
+Printer Friendly Settings
+******************************************************************************
+
+*/
 @media print {
     * {
         background: transparent; !important;
