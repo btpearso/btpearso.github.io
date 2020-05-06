@@ -27,7 +27,6 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
     <link rel="stylesheet" href="nav.css">
     <meta name="viewport" content="width=device-width, initial scale=1">
 <style>
-    section > h3 {text-align: center;}
 </style>
 </head>
 <body>
@@ -53,18 +52,51 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
 <section>
 <article>
     <h3><a href="mailto:bpc6c@mail.missouri.edu">Email</a></h3>
-    <p>bpc6c@mail.missouri.edu</p>
+    <h5>bpc6c@mail.missouri.edu</h5>
 </article>
 <article>
     <h3>Phone Number</h3>
-    <p>555-555-5555</p>
+    <h5>555-555-5555</h5>
 </article>
 <article>
     <h3>Mailing Address</h3>
-    <p>1234 Fake St
-        Whoville, PA 12345</p>
+    <h5>1234 Fake St Whoville, PA 12345</h5>
 </article>
 </section>
+<div class="section1c">
+    <form action="mailto:bpc6c@mail.missouri.edu?Subject=Hello%20" method="post" enctype="text/plain">
+          <h5>Contact Me</h5>
+          <article class="firstname">
+            <label for="firstname">First Name</label>
+            <br>
+            <input type="text" name="firstname" id="firstname" autofocus required placeholder="John" width=50%>
+          </article>
+          <article class="lastname">
+            <label for="lastname">Last Name</label>
+            <br>
+            <input type="text" name="lastname" id="lastname" required placeholder="Smith">
+          </article>
+          <article class="email">
+            <label for="email">Email</label>
+            <br>
+            <input type="text" name="email" id="email" required placeholder="myemail123@mail.com">
+          </article>
+          <article class="phone">
+            <label for="phone">Phone</label>
+            <br>
+            <input type="tel" name="phone" id="phone" required placeholder="555-555-5555">
+          </article>
+          <article class="message">
+            <label for="message">Message</label>
+            <br>
+            <textarea type="text" name="message" id="message" required placeholder="Wow, this is an impressive website and candidate!"></textarea>
+          </article>
+          <article class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </article>
+    </form>
+  </div>
 </main>
     <footer>
         <a href="mailto:bpc6c@mail.missouri.edu">

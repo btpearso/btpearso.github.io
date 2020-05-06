@@ -33,6 +33,7 @@ body {background-color: cornsilk; margin: 1.5rem;}
 h1 {color: #660000; font-family: lato; font-size: 4rem; text-align: center; border-color: crimson; border-style: solid; border-width: medium; background-color: lightblue;}
 h3 {color: dodgerblue; font-size: 3rem;}
 h4 {font-size: 2rem;}
+h5 {font-size: 2rem;}
 p {font-family: monospace; font-size: 2.5rem;}
 main li {font-size: 2.5rem;}
 blockquote {font-size: 2rem;}
@@ -55,10 +56,24 @@ span>a {text-decoration: none; font-size: 2rem;}
 main p:first-child::first-letter {font-size: 5rem; color: firebrick;}
 main p:nth-child(2)::first-line {text-indent: 5rem;}
 main p:nth-child(3)::first-line {text-indent: 5rem;}
-article {padding: 1rem; margin: 1rem; background: honeydew; width: 30vw;}
-section {display: flex;}
-article h3 {text-align: center; font-size: 3rem;}
-article p {font-size: 2rem; text-align: center;}
+section article {
+  padding: 1rem; 
+  margin: 1rem; 
+  background: powderblue; 
+  width: 30vw; 
+  display: flex; 
+  flex-direction: column;
+  border: .3rem outset crimson
+  }
+section {
+  display: flex;
+  text-align: center;
+  }
+article h3 {
+  font-size: 3rem;}
+article p {
+  font-size: 2rem;
+  }
 .section1e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 15rem; background: beige; width: 70vw; display: block;}
 .section2e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 15rem; background: beige; width: 70vw; display: block;}
 .section3e {box-shadow: .2rem .2rem 1rem; padding: 10rem; margin-left: 2.5rem; margin-right: 2.5rem; margin-bottom: 2.5rem; background: beige; width: 70vw; display: block;}
@@ -78,6 +93,106 @@ table caption {font-size: 2.5rem; margin-bottom: 1.5rem;}
 .row2 {background-color: white;}
 tr:nth-of-type(2) {background-color: lightblue;}
 tr:nth-of-type(3) {background-color: white;}
+.section1c {
+  padding: 3rem;
+  background-color: steelblue; 
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 22.5%;
+  box-shadow: .2rem .2rem 1rem;
+  align-items: center;
+  border-radius: 1rem;
+}
+input {
+  width: 100%;
+  background-color: cornsilk;
+}
+textarea {
+  background-color: cornsilk;
+  width: 100%;
+}
+.firstname {
+  background-color: powderblue;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; 
+  margin: 1rem; 
+  background: powderblue; 
+  width: 30vw; 
+  display: flex; 
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.lastname {
+  background-color: powderblue;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; 
+  margin: 1rem; 
+  background: powderblue; 
+  width: 30vw; 
+  display: flex; 
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.email {
+  background-color: powderblue;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; 
+  margin: 1rem; 
+  background: powderblue; 
+  width: 30vw; 
+  display: flex; 
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.phone {
+  background-color: powderblue;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; 
+  margin: 1rem; 
+  background: powderblue; 
+  width: 30vw; 
+  display: flex; 
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.message {
+  background-color: powderblue;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; 
+  margin: 1rem; 
+  background: powderblue; 
+  width: 30vw; 
+  display: flex; 
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.buttons {
+  background-color: powderblue;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; 
+  margin: 1rem; 
+  background: powderblue; 
+  width: 30vw; 
+  display: block;
+  border-radius: 1rem;
+  }
+form h5 {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-align: center;
+  margin-top; 0;
+  margin-bottom: 2rem;
+  
+}
 @media only screen and (max-width: 640px) {
 .iframe-container{
   position: relative;
@@ -96,6 +211,53 @@ tr:nth-of-type(3) {background-color: white;}
         width: 50%;
         font-size: 1.5rem;
     }
+.section1c {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.firstname {
+  background-color: powderblue;
+  margin-left: 0;
+  text-align: center;
+  width: 90%;
+}
+.lastname {
+  background-color: powderblue;
+  margin-left: 0;
+  text-align: center;
+  width: 90%;
+}
+.email {
+  background-color: powderblue;
+  margin-left: 0;
+  text-align: center;
+  width: 90%;
+}
+.phone {
+  background-color: powderblue;
+  margin-left: 0;
+  text-align: center;
+  width: 90%;
+}
+.message {
+  background-color: powderblue;
+  margin-left: 0;
+  text-align: center;
+  width: 90%;
+}
+.buttons {
+  background-color: powderblue;
+  margin-left: 0;
+  text-align: center;
+  width: 90%;
+}
+section {
+  display: block;
+  }
+section article {
+  width: 90%;
+}
 }
 @media print {
     * {

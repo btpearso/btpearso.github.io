@@ -30,8 +30,8 @@ display: block;
 position: relative;
 top: 0;
 width: 100%;
-background-color: darkolivegreen;
-border: .3rem outset darkseagreen;
+background-color: crimson;
+border: .3rem outset crimson;
 }
 nav ul {
 margin: 0;
@@ -42,8 +42,8 @@ list-style-type: none;
 display: inline-block;
 margin-right: 2rem;
 font-size: 2.5rem;
-border: .3rem inset darkseagreen;
-background-color: gold;
+border: .3rem inset skyblue;
+background-color: lightblue;
 padding-top: 1rem;
 padding-bottom: 1rem;
 padding-left: 2.5rem;
@@ -61,7 +61,7 @@ nav ul li:hover {
 background-color: mistyrose;
 }
 nav a:active {
-background-color: crimson;
+background-color: white;
 }
 nav ul > li ul {
 display: none;
