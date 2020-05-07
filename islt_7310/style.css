@@ -25,7 +25,7 @@ Tested:  May 7, 2020; Passed on Firefox and Chrome browsers.
   font-size: 62.5%;
   body {
     margin: 0;
-    // Body font size 16px;
+    // Body font size: 16px;
     font-size: 2.5rem;
   }
 }
@@ -100,11 +100,11 @@ footer {
     padding: 5px;
     background-image: url(images/background.jpg);
     width: 100%;
-    height: 22rem;
+    height: 18rem;
 }
 footer img {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 footer img:hover {
     width: 6rem;
@@ -421,10 +421,10 @@ section article {
 }
 @media print {
     * {
-        background: transparent; !important;
-        color: #000; !important;
-        box-shadow: none; !important;
-        text-shadow: none; !important;
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
         border: none;
     }
     nav {
