@@ -21,7 +21,7 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
   font-size: 62.5%;
   nav {
     margin: 0;
-    // nav font size 16px
+    // nav font size 16px;
     font-size: 1.6rem;
   }
 }
@@ -72,7 +72,7 @@ nav ul > li ul {
 }
 nav > ul > li:hover > ul {
     display: block; 
-    background-color: none; 
+    background-color: transparent; 
     top: 5.1rem; 
     left: -.3rem;
 }
@@ -108,7 +108,7 @@ nav > ul > li:hover > ul {
         text-align: center;
         font-size: 1.5rem;
         width: 100%;
-        padding: 1.5rempx 0;
+        padding: 1.5rem 0;
         margin: 0;
     }
     nav .xp {

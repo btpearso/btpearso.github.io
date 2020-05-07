@@ -25,7 +25,7 @@ Tested:  April 24, 2020; Passed on Firefox and Chrome browsers.
   font-size: 62.5%;
   body {
     margin: 0;
-    // Body font size 16px
+    // Body font size 16px;
     font-size: 2.5rem;
   }
 }
@@ -350,17 +350,9 @@ form h5 {
   font-size: 3rem;
   text-decoration: underline;
   text-align: center;
-  margin-top; 0;
+  margin-top: 0;
   margin-bottom: 2rem;
 }
-/*
-
-*****************************************************************************
-
-Mobile/Responsive Settings
-******************************************************************************
-
-*/
 @media only screen and (max-width: 640px) {
 .iframe-container{
   position: relative;
@@ -427,14 +419,6 @@ section article {
   width: 90%;
 }
 }
-/*
-
-*****************************************************************************
-
-Printer Friendly Settings
-******************************************************************************
-
-*/
 @media print {
     * {
         background: transparent; !important;
