@@ -21,7 +21,6 @@ Tested:  May 7, 2020; Passed on Firefox and Chrome browsers.
   font-size: 62.5%;
   nav {
     margin: 0;
-    // nav font size: 16px;
     font-size: 1.6rem;
   }
 }
