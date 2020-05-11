@@ -26,7 +26,6 @@ Tested:  May 7, 2020; Passed on Firefox and Chrome browsers.
   body {
     margin: 0;
     font-size: 2.5rem;
-  }
 }
 body {
     background-color: cornsilk; 
@@ -367,6 +366,9 @@ form h5 {
   width: 100%;
   height: 100%;
 }
+.unified {
+    top: -30rem;
+    }
 .xptable {
         width: 70%;
         font-size: 1.5rem;
@@ -380,37 +382,37 @@ form h5 {
   background-color: powderblue;
   margin-left: 0;
   text-align: center;
-  width: 90%;
+  width: 80vw;
 }
 .lastname {
   background-color: powderblue;
   margin-left: 0;
   text-align: center;
-  width: 90%;
+  width: 80vw;
 }
 .email {
   background-color: powderblue;
   margin-left: 0;
   text-align: center;
-  width: 90%;
+  width: 80vw;
 }
 .phone {
   background-color: powderblue;
   margin-left: 0;
   text-align: center;
-  width: 90%;
+  width: 80vw;
 }
 .message {
   background-color: powderblue;
   margin-left: 0;
   text-align: center;
-  width: 90%;
+  width: 80vw;
 }
 .buttons {
   background-color: powderblue;
   margin-left: 0;
   text-align: center;
-  width: 90%;
+  width: 80vw;
 }
 section {
   display: block;

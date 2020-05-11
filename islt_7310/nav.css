@@ -22,7 +22,6 @@ Tested:  May 7, 2020; Passed on Firefox and Chrome browsers.
   nav {
     margin: 0;
     font-size: 1.6rem;
-  }
 }
 nav {
     display: block;
@@ -83,6 +82,7 @@ nav > ul > li:hover > ul {
         position: relative; 
         display: block; 
         padding-bottom: 4.5rem;
+        z-index: 100;
     }
     nav ul, nav:active ul {
         display: none;
