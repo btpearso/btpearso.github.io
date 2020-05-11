@@ -13,9 +13,9 @@ Author:  Brian Pearson
 
 School/Term:  Missouri University, Spring 2020
 
-Developed: May 6, 2020
+Developed: May 11, 2020
 
-Tested:  May 6, 2020; Passed on Firefox and Chrome browsers.
+Tested:  May 11, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
@@ -46,6 +46,25 @@ Tested:  May 6, 2020; Passed on Firefox and Chrome browsers.
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
 <h1>Brian Pearson</h1>
 <img class="me" src="images/me.jpg" alt="This is a photo">
 <main>
@@ -77,6 +96,8 @@ Tested:  May 6, 2020; Passed on Firefox and Chrome browsers.
             <img src="images/phone.png" alt="This is a photo">
             555-555-5555
             </div>
+       <br>
+       <p align="left">This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
     </footer>
 </body>
 </html>
