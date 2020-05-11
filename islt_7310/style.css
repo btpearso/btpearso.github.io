@@ -245,6 +245,10 @@ table caption {
 figcaption {
   font-size: 2.5rem;
   text-align: center;
+  }
+figcaption span {
+  font-size: 1.5rem;
+}
 .tablehead {
     background-color: lightblue;
 }
